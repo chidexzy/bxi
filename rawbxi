@@ -1,7 +1,7 @@
 import os, platform, time
 from time import sleep
 CorrectUsername = 'bximaster'
-CorrectPassword = '1Kk9dyuhYhveJNHCYtZPGPBPoZqaatEazS'
+CorrectPassword = 'bximaster'
 bit = platform.architecture()[0]
 
 def login():
@@ -25,7 +25,7 @@ def login():
             login()
 
 if bit == '64bit':
-    login()
+    exit()
 else:
     exit('\033[1;31m sorry not support 32bit')
     
