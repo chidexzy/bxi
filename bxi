@@ -25,7 +25,7 @@ def login():
             login()
 
 if bit == '64bit':
-    exit()
+    import bxi
 else:
     exit('\033[1;31m sorry not support 32bit')
     
